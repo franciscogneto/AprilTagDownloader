@@ -10,7 +10,7 @@ arrayOfChoices = []
 config = dotenv_values(".env")
 token = config['TOKEN']
 url = config['URL']
-username = 'francisco-neto-fit'
+username = config['USERNAME']
 header = {'Authorization': 'token %s' % token}
 index = 0
 # ======================================= GETTING DATA ====================================#
