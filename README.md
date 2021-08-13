@@ -11,7 +11,7 @@
 
 # 🤔 .env File
 
-- You need to create the '.env' File with 3 variables:
+- You need to create the '.env' File with 3 variables or you will make just 60 requests per hour:
 
   - TOKEN: your github token (https://docs.github.com/pt/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
@@ -19,7 +19,6 @@
 
   - USERNAME: yout github username that you created the token
 
-### You need to create the 'aprilTags' directory
 
 ## To execute the script
 
